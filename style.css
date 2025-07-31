@@ -63,5 +63,34 @@ ul li a {
 }
 
 ul li a:hover {
-  color: red;
+  color: orange;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px white;
+  }
+  50% {
+    box-shadow: 0 0 20px white;
+  }
+  100% {
+    box-shadow: 0 0 5px white;
+  }
+}
+
+.play-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: glow 1.5s infinite alternate;
+}
+
+.play-button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px black;
 }
