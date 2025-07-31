@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.main{
+.main {
   width: 100%;
   background-image: url('1.jpg');
   background-position: center;
@@ -12,19 +12,19 @@
   height: 109vh;
 }
 
-.navbar{
+.navbar {
   width: 1200px;
   height: 75px;
   margin: auto;
 }
 
-.icon{
+.icon {
   width: 200px;
   float: left;
   height: 70px;
 }
 
-.logo{
+.logo {
   color: orange;
   font-family: 'Orbitron', sans-serif;
   text-shadow: 2px 2px 4px #000;
@@ -34,34 +34,34 @@
   padding-top: 10px;
 }
 
-.menu{
+.menu {
   width: 400px;
   float: left;
-  heigth: 70px;
+  height: 70px;
 }
 
-ul{
+ul {
   float: left;
   display: flex;
-  justify-content: centre;
-  aling-items: centre;
+  justify-content: center; 
+  align-items: center;      
 }
 
-ul li{
+ul li {
   list-style: none;
   margin-left: 62px;
   margin-top: 27px;
   font-size: 14px;
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   color: white;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   transition: 0.4s ease-in-out;
 }
 
-ui li a:hover{
+ul li a:hover {
   color: red;
 }
