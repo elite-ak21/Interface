@@ -26,4 +26,6 @@
 
 .logo{
   color: orange;
+  font-family: 'Bangers', cursive;
+  text-shadow: 2px 2px 4px #000;
 }
